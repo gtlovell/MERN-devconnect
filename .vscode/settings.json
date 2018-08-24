@@ -1,2 +1,156 @@
 {
+  "workbench.colorTheme": "Atom One Dark",
+  "materialTheme.fixIconsRunning": false,
+  "workbench.iconTheme": "material-icon-theme",
+  // "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": true,
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, monospace",
+  "workbench.activityBar.visible": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "Roboto Mono Light for Powerline",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.tokenColorCustomizations": {},
+  "explorer.confirmDragAndDrop": false,
+  "emmet.triggerExpansionOnTab": true,
+
+  //? Set the default
+  "editor.formatOnSave": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.tabSize": 2,
+
+  //? Theme colors
+
+  "workbench.colorCustomizations": {
+    "contrastActiveBorder": "#222",
+    "contrastBorder": "#222",
+
+    "activityBar.background": "#222",
+    "activityBar.foreground": "#444",
+    "activityBarBadge.background": "#00abb8",
+    "activityBarBadge.foreground": "#00215f",
+
+    "sideBar.background": "#222",
+    "sideBarSectionHeader.background": "#222",
+
+    "badge.background": "#00abb8",
+    "badge.foreground": "#00215f",
+
+    "editor.background": "#222",
+    "editor.selectionBackground": "#00abb8",
+    "editor.selectionForeground": "#00215f",
+    "editorLineNumber.foreground": "#444",
+    "editorGroup.border": "#222",
+    "editorGroupHeader.tabsBackground": "#222",
+    "editorGroupHeader.tabsBorder": "#222",
+    "editorOverviewRuler.border": "#222",
+
+    "tab.activeBackground": "#222",
+    "tab.inactiveBackground": "#222",
+    "tab.activeForeground": "#fff",
+    "tab.inactiveForeground": "#555",
+    "tab.border": "#222",
+    "tab.activeBorderTop": "#00abb8",
+
+    "input.background": "#111",
+    "input.border": "#222",
+    "inputOption.activeBorder": "#222",
+
+    "list.focusBackground": "#222",
+    "list.dropBackground": "#222",
+    "list.activeSelectionBackground": "#222",
+    "list.inactiveSelectionBackground": "#222",
+
+    "gitDecoration.modifiedResourceForeground": "#00abb8",
+    "gitDecoration.untrackedResourceForeground": "#c67dcf",
+
+    "titleBar.activeBackground": "#222",
+    "titleBar.inactiveBackground": "#222",
+
+    "statusBar.background": "#222",
+    "panel.border": "#222",
+    "widget.shadow": "#222",
+    "scrollbar.shadow": "#222",
+    "focusBorder": "#222"
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "comments": {
+      "foreground": "#666",
+      "fontFamily": "'Fira Code Bold'",
+      "fontStyle": "italic bold"
+    },
+    "textMateRules": [
+      {
+        "scope": "support.variable.property.dom.js",
+        "settings": { "foreground": "#2af8a9" }
+      },
+      {
+        "scope": "support.type.object.module.js",
+        "settings": { "foreground": "#2ee2ca" }
+      },
+      {
+        "scope": "variable.other.constant.js",
+        "settings": {
+          "foreground": "#b0d3ac",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.name.type.js",
+        "settings": { "foreground": "#62c59f" }
+      },
+      {
+        "scope": "support.class.builtin.js",
+        "settings": { "foreground": "#62c59f" }
+      },
+      {
+        "scope": "keyword.control.conditional.js",
+        "settings": {
+          "fontStyle": "bold",
+          "foreground": "#dd5683"
+        }
+      },
+      {
+        "scope": "variable.other.object.js",
+        "settings": { "foreground": "#2af8a9" }
+        // "settings": { "foreground": "#fff786" }
+      },
+      {
+        "scope": "variable.other.property.js",
+        "settings": { "foreground": "#bb73fd" }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": { "foreground": "#56B6C2" }
+      },
+      {
+        "scope": "variable.other.object.property.js",
+        "settings": {
+          "foreground": "#bce08d"
+        }
+      },
+      {
+        "scope": "string.quoted.single.js",
+        "settings": { "foreground": "#fff" }
+      },
+      {
+        "scope": "storage.type.js",
+        "settings": {
+          "foreground": "#c67dcf"
+          // "fontFamily": "'Script12 BT'"
+        }
+      }
+    ]
+  },
+  "materialTheme.autoApplyIcons": false,
+  "vscode_custom_css.imports": [""],
+  "vscode_custom_css.policy": true
 }
