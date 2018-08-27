@@ -152,5 +152,6 @@
   },
   "materialTheme.autoApplyIcons": false,
   "vscode_custom_css.imports": [""],
-  "vscode_custom_css.policy": true
+  "vscode_custom_css.policy": true,
+  "git.ignoreLimitWarning": true
 }
